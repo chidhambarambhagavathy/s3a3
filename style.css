@@ -1,0 +1,17 @@
+table, td { 
+	border : 1px solid black;
+}
+
+input, textarea {
+	margin-left: 5px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 90%;
+	height: 20px;
+}
+
+tr {
+	height: 35px;
+	background-color: #D6D8EC;
+}
+

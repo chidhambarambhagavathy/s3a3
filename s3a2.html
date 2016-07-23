@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>CSS Form</title>
+		<link type = "text/css" rel = "stylesheet" href = "style.css">
+		<style>
+			table, td {
+				border: 0;
+    			border-collapse: collapse;
+			}
+			td#col1 {
+				width: 100px;
+			}
+			td#col2 {
+				width: 350px;
+			}
+		</style>
+	</head>
+	<body>
+		<div>
+			<form>
+				<p>Step 1: Your details</p>
+				<table>
+					<tr>
+						<td id="col1">Name</td>
+						<td id="col2"><input type="text" placeholder="First and last name"></td>
+					</tr>
+					<tr>
+						<td>Email</td>
+						<td><input type="text" placeholder="example@domain.com"></td>
+					</tr>
+					<tr>
+						<td>Phone</td>
+						<td><input type="text" placeholder="e.g. +447500000000"></td>
+					</tr>
+				</table>
+							
+				<br><br>
+				<p>Step 1: Delivery address</p>
+				<table>
+					<tr>
+						<td id="col1">Address</td>
+						<td id="col2"><textarea></textarea></td>
+					</tr>
+					<tr>
+						<td>Post code</td>
+						<td><input type="text"></td>
+					</tr>
+					<tr>
+						<td>Country</td>
+						<td><input type="text"></td>
+					</tr>
+				</table>
+
+				<br><br>
+				<p>Step 1: Card details</p>
+				<table>
+					<tr>
+						<td id="col1">Card type</td>
+						<td id="col2">
+							<input style="width:auto" type="radio" name="card" value="Visa" checked> VISA
+							<input style="width:auto" type="radio" name="card" value="AmEx"> AmEx
+							<input style="width:auto" type="radio" name="card" value="Master"> Mastercard
+						</td>
+					</tr>
+					<tr>
+						<td>Card number</td>
+						<td><input type="text"></td>
+					</tr>
+					<tr>
+						<td>Security code</td>
+						<td><input type="text"></td>
+					</tr>
+					<tr>
+						<td>Name on card</td>
+						<td><input type="text" placeholder="exact name as on the card"></td>
+					</tr>
+				</table>
+
+			</form>
+		</div>
+	</body>
+</html>
